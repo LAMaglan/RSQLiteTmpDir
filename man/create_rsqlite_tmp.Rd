@@ -7,7 +7,7 @@
 create_rsqlite_tmp(
   root_dir = getwd(),
   rsqlite_tmp_folder = "rsqlite_tmp",
-  run = FALSE
+  run = TRUE
 )
 }
 \arguments{
@@ -24,5 +24,5 @@ NULL.
 Create temporary directory for RSQLite
 }
 \examples{
-create_rsqlite_tmp(run=TRUE)
+create_rsqlite_tmp()
 }

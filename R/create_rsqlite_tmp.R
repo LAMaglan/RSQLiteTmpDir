@@ -6,10 +6,10 @@
 #' @return NULL.
 #'
 #' @examples
-#' create_rsqlite_tmp(run=TRUE)
+#' create_rsqlite_tmp()
 #' @export
 #'
-create_rsqlite_tmp <- function(root_dir=getwd(), rsqlite_tmp_folder = "rsqlite_tmp", run=FALSE){
+create_rsqlite_tmp <- function(root_dir=getwd(), rsqlite_tmp_folder = "rsqlite_tmp", run=TRUE){
 
   if (!run) return(NULL)
 
