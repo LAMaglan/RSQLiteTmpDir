@@ -5,7 +5,7 @@ consequences when handling large files, in particular on linux based systems. Th
 function which creates and overwrites a custom temporary directory for (R)Sqlite.
 
 ```r
-devtools::install_github("LAMaglan/UiONettskjemaViz")
+devtools::install_github("LAMaglan/RSQLiteTmpDir")
 ```
 
 Load the package
